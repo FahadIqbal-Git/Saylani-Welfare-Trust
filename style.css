@@ -1,0 +1,395 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.head1{
+    background-color: rgb(79, 120, 231);
+    width: 1135px;
+    height: 70px;
+    padding: 5px;
+    margin: 5px;
+    color: white;
+}
+.logo{
+    float: left;
+    padding: 5px;
+    margin: 10px;
+}
+.header{
+    color: white;
+    font-size: 17.5px;
+}
+.fb{
+    width: 20px;
+    height: 21px;
+    margin: 5px;
+}
+.tweet{
+    width: 19px;
+    height: 19px;
+    margin: 5px;
+}
+.insta{
+    width: 19px;
+    height: 19px;
+    margin: 5px;
+}
+.whats{
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+}
+.you{
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+}
+.btn,.btn-light{
+    display: flex;
+    flex-direction: column;
+    float: right ;
+    font-size: 15px;
+    margin: 1px;
+    padding: 1px;   
+}
+.sticky-top{
+    background-color: whitesmoke;
+}
+.bar{
+text-align: center;
+}
+.bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: black;
+}
+.bar ul li{
+
+    margin: 5px;
+    padding: 5px;
+}
+.bar ul li a{
+    text-decoration: none;
+color:black;
+}
+.active, .bar ul li:hover{
+    background-color: rgb(79, 120, 231);
+    border-radius: 20px;
+}
+.subnav1{
+    display: none;
+}
+.bar ul li:hover .subnav1{
+    display: block;
+    position: absolute;
+    background: white;
+    margin-top: 10px;
+    margin-left: -15px;
+}
+.bar ul li:hover .subnav1 ul{
+    display: block;
+    margin: 10px;
+    text-align: left;
+}
+.bar ul li:hover .subnav1 ul a:hover{
+    background-color: rgb(79, 120, 231);
+    
+}
+.subnav2{
+    display: none;
+}
+.hover-meme:hover .subnav2 {
+    position: absolute;
+    display: block;
+    margin-top: -39px;
+    margin-left: 180px;
+    background-color: white;
+}
+.news{
+    background-color: rgb(79, 120, 231);
+    height: 25px;
+    width: 800px;
+    text-align: center;
+    color: white;
+}
+.new{
+    color: darkblue;
+    text-decoration: none;
+}
+.new1{
+    text-decoration: none;
+    color: rgb(70, 255, 64);
+}
+.intro{
+    display: inline-flex;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.int{
+    color:rgb(59, 103, 224) ;
+}
+.duc{
+    color:darkgreen;
+}
+.his{
+    margin-left: 160px;
+    margin-right: 160px;
+    font-size: 15px;
+    opacity: 75%;
+}
+.num{
+    background-color:rgb(59, 103, 224) ;
+    display: flex;
+    justify-content: space-around;
+    width: 1135px;
+    height: 300px;
+    
+}
+.food{
+    display: flex;
+    margin-top: 60px;
+    width: 55px;
+    height: 55px;
+}
+
+.fon1{
+    text-align: center;
+    font-size: 60px;
+    color: white;
+    font-weight: 500;
+    margin-top: -10px;
+}
+.fon2{
+    color: white;
+    font-size: 18px;
+    margin-top: -10px;
+}
+.fon3{
+    color: white;
+    font-size: 17px;
+    margin-top: -10px;
+}
+.mon{
+    text-decoration: none;
+    color: rgb(37, 240, 37);
+}
+.fam{
+    display: flex;
+    margin-top: 60px;
+    width: 55px;
+    height: 55px;
+    
+}
+.med{
+    display: flex;
+    margin-top: 60px;
+    width: 55px;
+    height: 55px;
+    
+}
+.edu{
+    display: flex;
+    margin-top: 60px;
+    width: 55px;
+    height: 55px;
+}
+.who{
+    background-color: whitesmoke;
+}
+.doing{
+    display: inline-flex;
+    text-align: center;
+    margin-left: 80px;
+}
+.doing1{
+    display: inline-flex;
+    text-align: center;
+    margin-left: 80px;
+}
+.bo1{
+    background-color:white;
+    padding: 20px;
+    border: 10px lightslategray;
+    margin: 20px;
+    width: 285px;
+    color: rgb(47, 85, 190);
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: -1px;
+    word-spacing: 2px;
+    box-shadow: 0px 0px 15px lightslategray;
+    border-radius: 2px;
+}
+.bo2{
+    background-color: white;
+    padding: 20px;
+    border: 10px lightslategray;
+    margin: 20px;
+    width: 285px;
+    color: rgb(47, 85, 190);
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: -1px;
+    word-spacing: 2px;
+    box-shadow: 0px 0px 15px lightslategray;
+    border-radius: 2px;
+}
+.bo3{
+    background-color: white;
+    padding: 20px;
+    border: 10px lightslategray;
+    margin: 20px;
+    width: 285px;
+    color: rgb(47, 85, 190);
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: -1px;
+    word-spacing: 2px;
+    box-shadow: 0px 0px 15px lightslategray;
+    border-radius: 2px;
+}
+.bo4{
+    background-color: white;
+    padding: 20px;
+    border: 10px lightslategray;
+    margin: 20px;
+    width: 285px;
+    color: rgb(47, 85, 190);
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: -1px;
+    word-spacing: 2px;
+    box-shadow: 0px 0px 15px lightslategray;
+    border-radius: 2px;
+}
+.bo5{
+    background-color: white;
+    padding: 20px;
+    border: 10px lightslategray;
+    margin: 20px;
+    width: 285px;
+    color: rgb(47, 85, 190);
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: -1px;
+    word-spacing: 2px;
+    box-shadow: 0px 0px 15px lightslategray;
+    border-radius: 2px;
+}
+.bo6{
+    background-color: white;
+    padding: 20px;
+    border: 10px lightslategray;
+    margin: 20px;
+    width: 285px;
+    color: rgb(47, 85, 190);
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: -1px;
+    word-spacing: 2px;
+    box-shadow: 0px 0px 15px lightslategray;
+    border-radius: 2px;
+}
+.cont{
+    display: flex;
+    flex-direction: row;
+}
+.cont1{
+    flex: 2;
+    margin-left: 60px;
+color: rgb(59, 103, 224);
+}
+.cont{
+    flex: 2;
+    margin-right: 110px;
+   color: rgb(59, 103, 224); 
+}
+.b{
+    display: flex;
+}
+.b1{
+
+    background-color: whitesmoke;
+    border: 1px;
+    border-color: solid rgba(0, 0, 0, 0.418);
+    color: rgb(47, 85, 190);
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    text-align: center;
+}
+.b2{
+
+    background-color: whitesmoke;
+    border: 1px;
+    border-color: solid rgba(0, 0, 0, 0.418);
+    color: rgb(47, 85, 190);
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    text-align: center;
+}
+.s{
+    margin-top: 15px;
+}
+.b3{
+    margin-left: 100px;
+    width: 250px;
+    height: 100px;
+}
+.non{
+    margin-top: 20px;
+    width: 250px;
+    height: 180px;
+}
+.mr{
+    text-decoration: none;
+}
+.gall{
+    margin-top: 20px;
+    padding: 2px;
+}
+.bl{
+    display: flex;
+    background-color: rgb(37, 37, 48);
+    width: 1135px;
+    height: 400px;
+}
+.bl1{
+    margin-top: 100px;
+    margin-left: 80px;
+
+}
+.add, .add1{
+    color: white;
+    text-align: left;
+}
+.bl2{
+    margin-top: 100px;
+    margin-left: 350px;
+}
+.con{
+    color: white;
+    font-weight: bolder;
+}
+.fot{
+    background-color: rgb(47, 85, 190);
+    width: 1135px;
+    height: 30px;
+}
+.f1{
+    margin-left: 50px;
+    color: white;
+    text-align: left;
+    font-size: 12px;
+}
